@@ -49,3 +49,29 @@ body {
     text-wrap: balance;
   }
 }
+
+.Card{
+  background: linear-gradient(rgb(87, 204, 222), wheat);
+  color:white;
+  border-radius: 10px;
+}
+.Intro{
+  height: 40%;
+  color:rgb(176, 207, 207);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  padding-left: 35%;
+  font-size: 30px;
+  text-shadow: 
+    -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    2px 1px 0 #000;
+}
+.start{
+  background: linear-gradient(rgb(109, 212, 228), rgb(251, 140, 93));
+  color: #171717;
+  padding-left: 95%;
+}
+.entire-screen{
+  background: linear-gradient(rgb(222, 135, 68), rgb(188, 243, 186));
+}
