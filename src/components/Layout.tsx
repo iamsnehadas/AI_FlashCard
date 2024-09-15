@@ -7,7 +7,7 @@ interface LayoutProps {
 
 const Layout = ({ children }: LayoutProps) => {
   return (
-    <div className="entire-screen min-h-screen bg-gray-100">
+    <div className="entire-screen min-h-screen bg-black-100">
       <header className="start bg-blue-600 text-white p-4">
         <div className="container mx-auto flex justify-between items-center">
           <div>
