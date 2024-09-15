@@ -8,7 +8,7 @@ import Layout from '../components/Layout';
 
 const stripePromise = loadStripe(process.env.NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY || '');
 
-import React, { ReactNode } from 'react';
+import React from 'react';
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
